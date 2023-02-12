@@ -1,0 +1,14 @@
+syntax= "proto3";
+
+service ZipSearching{
+    rpc ZipSearching (ZipInput) returns (ZipOutput) {};
+}
+
+message ZipInput{
+    string zipCode = 1;
+    int32 radius = 2;
+}
+
+message ZipOutput{
+    string output = 1;
+}
