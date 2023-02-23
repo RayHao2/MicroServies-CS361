@@ -40,4 +40,4 @@ print(response.output) //expected output: 5
 ```
 
 ## UML diagram
-![alt text] (https://github.com/RayHao2/MicroServies-CS361/blob/main/UML_Diagram.png)
+![](UML_Diagram.png)
